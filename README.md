@@ -24,6 +24,11 @@ Challenge yourself, your friends, or just kill some time — the choice is yours
 ---
 
 ## 📦 Installation & Usage
+ **Online**
+   [With netlify](https://rock-paper-scissors-onlines.netlify.app/)  
+   
+   
+  ## **or**
 
 1. **Clone the repo**  
    ```bash
