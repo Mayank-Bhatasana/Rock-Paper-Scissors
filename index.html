@@ -2,10 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="script.js"></script>
     <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
+<div class="container">
+    <h1>Let's play rock, paper and scissors </h1>
+    <div class="boxContainer">
+        <div class="box" id="box1">
+            <h3>You</h3>
+            <h2 id="user-score">3</h2>
+        </div>
+        <div class="box" id="box2">
+            <h3>Ties</h3>
+            <h2 id="the-number-of-tie">4</h2>
+        </div>
+        <div class="box" id="box3">
+            <h3>Computer</h3>
+            <h2 id="computer-score">7</h2>
+        </div>
+    </div>
+    <div class="hand">
+        <div class="players-choice-display">
+            <label>Your choice</label>
+            <img id="user-choice-img" src="img/question-mark.png" alt="rock image" />
+        </div>
+        <h1 class="vs">VS</h1>
+        <div class="computer-choice-display">
+            <label>Computer's choice</label>
+            <img id="computer-choice-png" src="img/question-mark.png" alt="paper image" />
+        </div>
+    </div>
+    <div class="result">
+        <h1 class="answer">make your choice</h1>
+    </div>
+
+    <div class="option">
+
+        <div class="hoverImg" data-choice="rock">
+            <img src="img/rock.png">
+            <h4 >Rock</h4>
+        </div>
+
+        <div class="hoverImg" data-choice="paper">
+            <img src="img/paper.png">
+            <h4>Paper</h4>
+        </div>
+
+        <div class="hoverImg" data-choice="scissors">
+            <img src="img/scissors.png">
+            <h4>Scissors</h4>
+        </div>
+        <div class="otherOption">
+            <button id="restart" class="btn-other">Restart the game</button>
+            <button id="showHistory" class="btn-other">Show History</button>
+            <button id="showStats" class="btn-other">Show Status</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</div>
 </body>
 </html>
