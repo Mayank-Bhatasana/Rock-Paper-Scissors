@@ -1,4 +1,4 @@
-# TOD-Rock-Paper-Scissors
+# Rock-Paper-Scissors
 
 Absolutely! Here’s a lively and engaging README for your Rock-Paper-Scissors website, featuring emojis and a friendly tone. You can copy and use this in your README.md file:
 
